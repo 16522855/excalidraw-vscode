@@ -1,10 +1,10 @@
 {
-    "name": "excalidraw-editor",
+    "name": "gs-excalidraw-editor",
     "icon": "assets/images/logo.png",
-    "displayName": "Excalidraw",
+    "displayName": "Excalidraw-guanshi",
     "description": "Draw schemas in VS Code using Excalidraw",
     "version": "3.4.1",
-    "publisher": "pomdtr",
+    "publisher": "codingman",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -19,9 +19,9 @@
         "excalidraw"
     ],
     "author": {
-        "name": "pomdtr",
-        "email": "achille.lacoin@gmail.com",
-        "url": "https://github.com/pomdtr"
+        "name": "codingman",
+        "email": "codingman@gmail.com",
+        "url": "https://github.com/16522855"
     },
     "activationEvents": [
         "workspaceContains:**/*.{excalidraw,excalidraw.svg,excalidraw.png}",
@@ -29,7 +29,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/excalidraw/excalidraw-vscode/tree/master/extension"
+        "url": "https://github.com/16522855/excalidraw-vscode/tree/master/extension"
     },
     "browser": "./dist/extension.js",
     "contributes": {
